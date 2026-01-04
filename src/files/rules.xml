@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<track nillable="false">
+    <title></title>
+    <author></author>
+    <tempo type="positiveInteger">
+        <:a>
+            <note-value in="half,quarter,eighth"></note-value>
+            <augmented type="boolean"></augmented>
+        </:a>
+    </tempo>
+    <contents>
+        <content repeatable="true">
+            <:a>
+                <type in="grid"></type>
+            </:a>
+        </content>
+    </contents>
+</track>

@@ -1,0 +1,29 @@
+<track>
+    <title>Starman</title>
+    <author>David Bowie</author>
+    <tempo noteValue="quarter">100</tempo>
+    <contents>
+        <content type="grid">
+            <part name="Intro">
+                <b repeat="start">Bb#11</b>
+                <b>repeat</b>
+                <b>FM7#11</b>
+                <b repeat="end">repeat</b>
+            </part>
+            <part name="Verse">
+                <b repeat="start">Gm</b>
+                <b>repeat</b>
+                <b>F</b>
+                <b>repeat</b>
+                <b>C</b>
+                <b>C7</b>
+                <b repeat="end" repeatStep="1">F;Ab,Bb</b>
+                <b repeatStep="2">A</b>
+                <b>repeat</b>
+                <b>G</b>
+                <b>repeat</b>
+            </part>
+        </content>
+        <content type="grid"></content>
+    </contents>
+</track>
