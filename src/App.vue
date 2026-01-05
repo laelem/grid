@@ -79,6 +79,7 @@ const state = EditorState.create({
         EditorView.lineWrapping,
         EditorView.updateListener.of((view: ViewUpdate) => {
             if (view.docChanged) {
+                console.log(view.state)
                 generateResult(view.state.doc.text.join(''))
             }
         }),

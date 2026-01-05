@@ -1,8 +1,8 @@
 <template>
-    <h1 class="text-center text-3xl font-semibold p-2">
+    <h1 class="text-center text-4xl mb-2">
         {{ props.track.title ?? '[Sans titre]' }}
     </h1>
-    <h2 v-if="props.track.author" class="text-center text-xl text-gray-500 px-2">
+    <h2 v-if="props.track.author" class="text-center text-lg text-gray-500 px-2">
         {{ props.track.author }}
     </h2>
     <div v-if="props.track.tempo">
